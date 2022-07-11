@@ -1,0 +1,216 @@
+.body-style {
+    background-color: rgb(141, 145, 87);
+    position: relative;
+}
+
+.main-div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    border-style: solid;
+    border-width: 0.15em;
+    box-sizing: border-box;
+    background-color: rgb(205, 214, 155);
+    border-color: rgba(102, 49, 0, 1); 
+    border-radius: 2em;
+    padding: 1em; 
+    text-decoration: none;
+}
+
+.logo {
+    color:rgba(102, 49, 0, 1); 
+    font-family: 'Montserrat', sans-serif; font-style: italic;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-left :1em; 
+    border: 1px;
+    vertical-align: top; 
+}
+
+nav a {
+    color:rgba(102, 49, 0, 1); 
+    font-family: 'Montserrat', sans-serif; font-weight: 300;
+    padding-left :10em; 
+    text-decoration: none;
+}
+
+.header-row {
+    display: flex;
+}
+
+.left-hand {
+    height: 47vh;
+    flex: 60%;
+    margin-top: 2.5em;
+    background-position: left; 
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 5em;
+}
+
+.right-row {
+    height: 40vh;
+    flex: 40%;
+    color: rgba(102, 49, 0, 1);
+}
+
+.paragraph-about-self {
+    color: black;
+}
+
+.form {
+    padding: 0;
+    margin: 2em;
+    box-sizing: border-box;
+    width:max-content; 
+}
+
+.register-form {
+    box-shadow: 5px 8px 8px rgba(102, 49, 0, 1);
+    border-radius: 50px 0px 0px;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid rgb(205, 214, 155);
+    flex: 1
+}
+
+.register-link {  
+    color: rgba(102, 49, 0, 1); 
+    text-decoration: none; 
+}
+
+.input {
+    margin: 15px 20px;
+    width: 90%;
+    border: 1px solid rgba(102, 49, 0, 1);
+    border-radius: 50px;
+    font-size: 18px;
+    color: rgba(102, 49, 0, 1);
+    padding: 20px;
+}
+
+.main {
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#left-col-about {
+    background-image: url(images/didi.png.jpg);
+}
+
+#left-col-contact {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0ZEw-yf1L27mZ4N7671WsjxGW-xSmjChvRQ&usqp=CAU);
+}
+
+.heading1 {
+    font-size: 3em;
+    color: rgba(102, 49, 0, 1);
+    padding-top: 0.5em;
+}
+
+.about-me {
+    margin: 10px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hobbies {
+    box-shadow: 5px 8px 8px rgba(102, 49, 0, 1);
+    border-radius: 50px 0px 0px;
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid rgb(205, 214, 155);
+    flex: 1
+}
+
+.hobbies-heading {
+    color: rgba(102, 49, 0, 1);
+    padding-top: 0.5em;
+}
+
+.priorities {
+    box-shadow: 5px 8px 8px rgba(102, 49, 0, 1);
+    padding: 40px;
+    border: 1px solid rgb(205, 214, 155);
+    margin: 20px;
+    flex: 2;
+}
+
+.priorities-heading {
+    color: rgba(102, 49, 0, 1);
+    padding-top: 0.5em;
+}
+
+.skills {
+    box-shadow: 5px 8px 8px rgba(102, 49, 0, 1);
+    margin: 20px;
+    padding: 40px;
+    border: 1px solid rgb(205, 214, 155);
+    border-radius: 0px 0px 50px;
+    flex: 1;
+}
+
+.skills-head {
+    color: rgba(102, 49, 0, 1);
+}
+
+.content-area {
+    font-family: 'Montserrat', sans-serif; 
+    margin-top: 6em;
+}
+
+.button-info {
+    font-size: larger;
+    color: black;
+    
+}
+
+.button {
+    border-style: solid;
+    border-width: 0.15em;
+    box-sizing: border-box;
+    background-color: rgb(205, 214, 155);
+    border-color: rgba(102, 49, 0, 1); 
+    border-radius: 2em;
+    height: 10vh; width: 50%;
+    font-size: large;
+    padding: 1em;
+    
+}
+
+.button-text {
+    color: rgba(102, 49, 0, 1);
+    text-decoration: none;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+    margin: 20PX; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color:rgba(102, 49, 0, 1);
+    text-align: center;
+}
+
+.twitter {
+    color: rgba(102, 49, 0, 1);
+}
+
+.linkedin {
+    color: rgba(102, 49, 0, 1);
+}
+
+.whatsapp {
+    color: rgba(102, 49, 0, 1);
+}
